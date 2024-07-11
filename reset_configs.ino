@@ -26,5 +26,4 @@ void setup() {
 }
 
 void loop() {
-  // Seu código principal aqui
 }
