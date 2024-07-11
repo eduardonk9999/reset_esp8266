@@ -1,4 +1,4 @@
-#include <EEPROM.h> // Biblioteca para acessar a memória flash
+#include <EEPROM.h>
 
 #define EEPROM_SIZE 96
 #define RESET_PIN 0 // GPIO0 é geralmente o botão de "Flash"
@@ -22,7 +22,6 @@ void setup() {
     Serial.println("Configurações WiFi limpas. Reinicie para reconfigurar.");
   }
 
-  // Resto do seu código de configuração
 }
 
 void loop() {
